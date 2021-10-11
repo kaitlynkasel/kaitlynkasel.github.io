@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+</head>
+
+<body>
+    <h1>Let's Learn Some Java Script</h1>
+    <h2>How do we do onclick events and alerts on an anchor?</h2>
+    <a href="https://eastsideprep.org" target="_blank" onclick="alert('Warning. You are leaving this webpage.')">Eastside Prep</a>
+    <hr>
+    <h2>How do we change HTML with javascript with a button?</h2>
+    <P>What is my secret identity?</P>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='lol';document.getElementById('secret').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide!</button>
+    <hr>
+    <h2>How do we change images with javascript?</h2>
+    <img src="images/pic_bulboff.gif" alt="light bulb" id="my-image">
+    <button onclick="document.getElementById('my-image').src='images/pic_bulbon.gif'">Turn on</button>
+    <button onclick="document.getElementById('my-image').src='images/pic_bulboff.gif'">Turn off</button>
+    <hr>
+    <h2>How to change css with a button?</h2>
+    <p id="id1">Change me!</p>
+    <button type="button" onclick="document.getElementById('id1').style.color = 'red'">Red!</button>
+    <button type="button" onclick="document.getElementById('id1').style.fontSize='x-large'">Big!</button>
+
+
+</body>
+
+</html>
