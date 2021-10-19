@@ -1,10 +1,11 @@
 body {
-    background-color: #B8C7D7;
+    background-color: #a2beaa;
 }
 
-s .nav {
+.nav {
     list-style-type: none;
-    background-color: #486789;
+    background-color: #448a4d;
+    margin: 0;
     padding: 0;
     overflow: hidden;
 }
@@ -22,9 +23,31 @@ ul.nav li a {
 }
 
 li a:hover {
-    background-color: #82AAD5;
+    background-color: #235831;
 }
 
 .active {
-    background-color: #5E8ABB;
+    background-color: #3C713E;
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #448a4d;
+    color: white;
+    text-align: center;
+}
+
+p.footer {
+    display: block;
+    padding: 8px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
 }
