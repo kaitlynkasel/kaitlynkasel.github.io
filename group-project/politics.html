@@ -7,6 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upcoming Political Events</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /*New CSS Feature 1 and 2, text shadow and hover*/
+        
+        .vote p {
+            text-shadow: 2px 2px 5px green;
+        }
+        
+        .myDiv {
+            transform: rotate(15deg);
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .hover:hover+.hide {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,21 +34,36 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="activities.html">Activities</a></li>
         <li><a href="nature.html">Nature</a></li>
-        <li class="active"><a href="transport.html">Public Transport</a></li>
+        <li><a href="transport.html">Public Transport</a></li>
         <li><a href="welfare.html">Social Welfare</a></li>
         <li><a href="entertainment.html">Upcoming Entertainment</a></li>
-        <li><a href="politics.html">Upcoming Political Events</a></li>
+        <li class="active"><a href="politics.html">Upcoming Political Events</a></li>
     </ul>
     <h1>Upcoming King County Political Events</h1>
     <p style="text-align: center;">Find out how to register to vote in upcoming elections, and other ways to get politically involved!</p>
     <hr>
     <h2>Upcoming Votes: </h2>
-    <p>Two local votes upcoming in 2021 are the <a>November general election</a> and <a>December recall election</a>.</p>
+    <p>Two local votes upcoming in 2021 are the <a href="https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?eid=27" target="_blank">November general election</a> and <a href="https://info.kingcounty.gov/kcelections/Vote/contests/ballotmeasures.aspx?eid=29"
+            target="_blank">December recall election</a>.</p>
     <p>If you are registered to vote, you will receive a mail in ballot for voting.</p>
-    <p>If you aren't registered, you can <a href="https://kingcounty.gov/depts/elections/how-to-vote/register-to-vote.aspx"> register until Oct 25th.</a> If you are at least 18 years old and a legal citizen and resident of Washington State, you can vote!</p>
 
 
-    <p>Options for participating in city council meetings: </p>
+    <div class="myDiv">
+        <img style="float: right;" src="images/votewa.png" alt="washington state in green with the word vote">
+    </div>
+
+    <div class="vote">
+        <p>If you aren't registered, you can <a href="https://kingcounty.gov/depts/elections/how-to-vote/register-to-vote.aspx" target="_blank"> register until Oct 25th.</a> If you are at least 18 years old and a legal citizen and resident of Washington
+            State, you can vote!</p>
+
+        <div style="font-size:larger;" class="hover">Did you vote? Hover for a sticker!!</div>
+        <div class="hide"><img src="images/ivote.jpg" alt="i voted!"></div>
+
+    </div>
+    <br>
+
+
+    <h2>Options for participating in city council meetings: </h2>
 
     <p>Oral Public Comment:</p>
     <p id="opc"></p>
@@ -41,17 +75,23 @@
     <button onclick="document.getElementById('secret').style.display='none'">Click to hide</button>
 
     <br>
-    <p>How to view City Council meetings:</p>
-    <table>
-        <tr>
-            <td>All meetings are televised live on King County TV Channel 22</td>
-            <td>Stream online via links found here</td>
-            <td>Join using Zoom: links found here</td>
-        </tr>
-    </table>
+    <h2>How to view City Council meetings:</h2>
+
+    <ul>
+        <li>
+            All meetings are televised live on King County TV Channel 22
+        </li>
+        <li>
+            Stream online via links found <a href="https://kingcounty.gov/council/committees.aspx" style="background-color: darkseagreen;" target="_blank">here</a> by navigating to the specific comittee or meeting you are interested in
+        </li>
+        <li>
+            Join using Zoom: links found
+            <a target="_blank" style="background-color: darkseagreen;" href="https://kingcounty.gov/council/committees.aspx"> here </a>by doing the same
+        </li>
+    </ul>
 
 
-    <div class="footer">
+    <div class="footer ">
         <p>Sadie Hale</p>
     </div>
 
