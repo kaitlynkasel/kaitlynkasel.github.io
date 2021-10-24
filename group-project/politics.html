@@ -21,7 +21,7 @@
         <li><a href="politics.html">Upcoming Political Events</a></li>
     </ul>
     <h1>Upcoming King County Political Events</h1>
-    <p>Find out how to register to vote in upcoming elections, and other ways to get politically involved!</p>
+    <p style="text-align: center;">Find out how to register to vote in upcoming elections, and other ways to get politically involved!</p>
     <hr>
     <h2>Upcoming Votes: </h2>
     <p>Two local votes upcoming in 2021 are the <a>November general election</a> and <a>December recall election</a>.</p>
@@ -32,8 +32,16 @@
     <p>Options for participating in city council meetings: </p>
 
     <p>Oral Public Comment:</p>
+    <p id="opc"></p>
+    <button onclick="document.getElementById('opc').innerHTML='Connect to the zoom meeting (information below), and you may provide an oral comment.';document.getElementById('opc').style.display='block'">Click to find out how!</button>
+    <button onclick="document.getElementById('opc').style.display='none'">Click to hide</button>
     <p>Written Public Comment:</p>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='Submit a comment to the email address kcccommitt@kingcounty.gov by 8 am on the day of the meeting.';document.getElementById('secret').style.display='block'">Click to find out</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Click to hide</button>
 
+    <br>
+    <p>How to view City Council meetings:</p>
     <table>
         <tr>
             <td>All meetings are televised live on King County TV Channel 22</td>
