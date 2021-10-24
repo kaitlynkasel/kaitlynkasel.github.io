@@ -35,7 +35,6 @@ h1 {
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -51,3 +50,12 @@ p.footer {
     color: black;
     text-decoration: none;
 }
+
+.border table,
+th,
+td {
+    border: 1px solid black;
+}
+
+
+/*new feature*/
