@@ -35,7 +35,6 @@ h1 {
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -57,3 +56,6 @@ th,
 td {
     border: 1px solid black;
 }
+
+
+/*new feature*/
