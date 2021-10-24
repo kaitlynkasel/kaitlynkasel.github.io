@@ -51,6 +51,16 @@ p.footer {
     text-decoration: none;
 }
 
+.border table,
+th,
+td {
+    border: 1px solid black;
+    background-color: #a2beaa;
+}
+
+
+/*new feature*/
+
 .animate {
     position: relative;
     animation: mymove 5s;
