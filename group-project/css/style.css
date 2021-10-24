@@ -51,7 +51,7 @@ p.footer {
     text-decoration: none;
 }
 
-table,
+.border table,
 th,
 td {
     border: 1px solid black;
