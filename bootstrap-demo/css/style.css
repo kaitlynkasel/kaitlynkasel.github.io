@@ -1,0 +1,17 @@
+h1 {
+    font-family: louvette-banner, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: louvette-banner, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+em {
+    font-family: louvette-banner, serif;
+    font-weight: 700;
+    font-style: italic;
+}
