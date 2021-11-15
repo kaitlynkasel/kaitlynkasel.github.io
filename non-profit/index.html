@@ -5,92 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broadway Bound Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://use.typekit.net/rnh6imy.css">
+    <title>Broadway Bound</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hct0war.css">
 </head>
 
-<body class="text-light" style="background-color: #280659;">
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/BB-LOGO-medium.png" style="width: 200px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav text-white">
-                    <li class="nav-item">
-                        <a class="nav-link active text-reset" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-reset" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-reset" href="#">Actor Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-reset" href="#">Socials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-reset" href="#">Summer Camps</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-reset" href="#">Donate</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid text-dark" style="background-color: #9A77CF;">
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <h1>Join Now!</h1>
-                <p>5-11 Show: The Little Mermaid Jr.</p>
-                <p>11-18 Show: The Little Mermaid</p>
-                <a class="btn btn-light" role="button" href="#" target="_blank">Enroll 5-11</a>
-                <a class="btn btn-light" role="button" href="#" target="_blank">Enroll 11-18</a>
-            </div>
-            <div class="col-md-6 text-center">
-                <h1>Cast Lists</h1>
-                <p><img src="images/LM_TITLE_HORIZONTAL_4C.png" style="width: 250px"><a class="btn btn-light" role="button" href="#" target="_blank">Cast List 5-11</a></p>
-                <p><img src="images/LM_TITLE_HORIZONTAL_4C.png" style="width: 250px"><a class="btn btn-light" role="button" href="#" target="_blank">Cast List 11-18</a></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <iframe width="450" height="315" src="https://vimeo.com/546283536" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-7 text-center">
-                <h1 class="text-center">Upcomign Events</h1>
-                <ul>
-                    <p>November
-                        <li>Event</li>
-                        <li>Event</li>
-                    </p>
-                    <p>December
-                        <li>Event</li>
-                        <li>Event</li>
-                    </p>
-                    <p>January
-                        <li>Event</li>
-                        <li>Event</li>
-                    </p>
-                </ul>
+<body>
 
-            </div>
+
+    <div class="grid-container">
+        <div class="grid-item navmenu">
+            </a>
+            <ul class="nav">
+                <li>
+                    <a class="navbar-brand" href="/"></a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="actor-resources.html">Actor Resources</a>
+                </li>
+                <li>
+                    <a href="summer-camps.html">Summer Camps</a>
+                </li>
+                <li>
+                    <a href="donate.html">Donate</a>
+                </li>
+            </ul>
         </div>
-        <div class="row">
-            <div class="col-md-8">
-                <h1>Urge to Donate</h1>
-                <p>Here is where I will put positive attributes about Broadway Bound and then will aske people to donate.<img src="images/image.png" style="width: 250px"></p>
-            </div>
-            <div class="col-md-3 text-center">
-                <h2>Socials And Contact</h2>
-                <p>This will have the adress, phone and email, and socials</p>
-            </div>
+        <div class="grid-item sign-up">
+            <h1>Join Now!</h1>
+            <p>5-11 Show: The Little Mermaid Jr.</p>
+            <p>11-18 Show: The Little Mermaid</p>
+            <button class="button button1" onclick="document.location='enrollement.html'">Enroll 5-11</button>
+            <button class="button button1" onclick="document.location='enrollement.html'">Enroll 12-18</button>
         </div>
+        <div class="grid-item sidenav">
+            <h2>Socials And Contact</h2>
+            <ul style="list-style-type: none;">
+                <li>
+                    University Heights, Suite 203 5031 University Way NE Seattle 98105
+                </li>
+                <li>206-526-5437</li>
+                <li><a href=mailto:office@broadwaybound.org subject="HTML link">office@broadwaybound.org</a></li>
+            </ul>
+            <ul style="list-style-type: none;">
+                <li><a href="https://www.instagram.com/broadwayboundtheater/?hl=en" target="_blank" onclick="alert('Warning. You are navigating away from my page')">Instagram</a></li>
+                <li><a href="https://www.facebook.com/broadwaybound.org/" target="_blank" onclick="alert('Warning. You are navigating away from my page')">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCmruR_YfvUSV4CK_0S0HXBQ?view_as=subscriber" target="_blank" onclick="alert('Warning. You are navigating away from my page')">Youtube</a></li>
+            </ul>
+        </div>
+
+        <div class="grid-item main">
+            <h1>Cast Lists</h1>
+            <p><img src="images/LM_TITLE_HORIZONTAL_4C.png" style="width: 250px"><button onclick="document.location='castlist5.html'" class="button button1">Cast List 5-11</button></p>
+            <p><img src="images/LM_TITLE_HORIZONTAL_4C.png" style="width: 250px"><button onclick="document.location='castlist12.html'" class="button button1">Cast List 12-18</button></p>
+        </div>
+
+        <div class="grid-item support1">
+            <iframe width="450" height="315" src="https://vimeo.com/546283536" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="grid-item support2">
+            <h1>Upcoming Events</h1>
+            <ul style="list-style-type: none;">
+                <p>November
+                    <li>November 6th, 2021 |6:00 PM: Join Us in Celebrating 25 Years of Broadway Bound!</li>
+                    <li>4:30-6:30 PM Rehearsals (days dependent on which cast you are apart of)</li>
+                </p>
+                </p>
+            </ul>
+        </div>
+        <div class="grid-item main2">
+            <h1>Urge to Donate</h1>
+            <p>Broadway Bound is a non-profit children’s theatre in Seattle which has given 23,000 kids the opportunity to participate in musical theatre after school. Year round, Broadway Bound has kids rehearsing 2-5 times a week to perform a vide variety
+                of shows. To continue this practice we kindly ask for your donation. Broadway Bound Children’s Theatre transforms the lives of children ages 5 – 18 through active participation in a dynamic theatre arts program that combines a fun and
+                supportive atmosphere with professional standards. Children of all skill levels and backgrounds are challenged to develop their mental, physical, emotional, social, and creative potential through the joy and discipline of live theatre;
+                anything you are able to give is much appreciated.</p>
+            <img src="images/donate2.jpg" style="width: 400px">
+        </div>
+    </div>
 
 
 </body>
